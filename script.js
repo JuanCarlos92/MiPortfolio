@@ -42,3 +42,29 @@ function efectoHabilidades() {
     }
 
 }
+function sendEmail(event) {
+    event.preventDefault(); // Evita el envío tradicional del formulario
+
+    // Obtener los valores de los campos del formulario
+    const nombre = document.querySelector("input[placeholder='Nombre Completo *']").value;
+    const email = document.querySelector("input[placeholder='Dirección de Email']").value;
+    const tema = document.querySelector("input[placeholder='Tema...']").value;
+    const mensaje = document.querySelector("textarea[placeholder='Tu Mensaje...']").value;
+
+     // Configurar parámetros para EmailJS
+    const params = {
+        from_name: nombre,
+        email_id: email,
+        subject: tema,
+        message: mensaje,
+    };
+
+    // Llamada a EmailJS para enviar el correo
+    emailjs.send("service_wa2tu4d", "template_amn12gd", params)
+        .then(function(response) {
+            alert("Mensaje enviado con éxito!"); // Mensaje de éxito
+            document.getElementById("contact-form").reset(); // Reinicia el formulario
+        }, function(error) {
+            alert("Hubo un error al enviar el mensaje: " + error.text); // Mensaje de error
+        });
+}
