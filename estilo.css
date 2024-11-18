@@ -323,41 +323,42 @@
             height: 6px;
             margin: 10px 0px;
         }
-        
+
         .contenedor-skills .skill .barra .barra-progreso1 {
             background-color: #fff;
-            width: 95%;
+            width: 100%;
             height: 6px;
-            animation: progreso1 2s forwards;
+            /*animation: progreso1 2s forwards;*/
         }
         
         .contenedor-skills .skill .barra .barra-progreso2 {
             background-color: #fff;
-            width: 90%;
+            width: 100%;
             height: 6px;
-            animation: progreso2 2s forwards;
+            /*animation: progreso2 2s forwards;*/
         }
         
         .contenedor-skills .skill .barra .barra-progreso3 {
             background-color: #fff;
-            width: 90%;
+            width: 100%;
             height: 6px;
-            animation: progreso3 2s forwards;
+            /*animation: progreso3 2s forwards;*/
         }
         
         .contenedor-skills .skill .barra .barra-progreso4 {
             background-color: #fff;
-            width: 85%;
+            width: 100%;
             height: 6px;
-            animation: progreso4 2s forwards;
+            /*animation: progreso4 2s forwards;*/
         }.contenedor-skills .skill .barra .barra-progreso5 {
             background-color: #fff;
-            width: 85%;
+            width: 100%;
             height: 6px;
-            animation: progreso4 2s forwards;
+            /*animation: progreso5 2s forwards;*/
         }
         
-        @keyframes progreso1 { /*BARRA 3*/
+        /*
+        @keyframes progreso1 { 
             0% {
                 width: 0;
             }
@@ -366,7 +367,7 @@
             }
         }
         
-        @keyframes progreso2 { /*BARRA 4*/
+        @keyframes progreso2 { 
             0% {
                 width: 0;
             }
@@ -374,8 +375,8 @@
                 width: 65%;
             }
         }
-        
-        @keyframes progreso3 { /*BARRA 2*/
+            
+        @keyframes progreso3 {
             0% {
                 width: 0;
             }
@@ -384,7 +385,7 @@
             }
         }
         
-        @keyframes progreso4 { /* BARRA 1*/
+        @keyframes progreso4 {
             0% {
                 width: 0;
             }
@@ -392,14 +393,14 @@
                 width: 84%;
             }
         }
-        @keyframes progreso5 { /* BARRA 5*/
+        @keyframes progreso5 {
             0% {
                 width: 0;
             }
             100% {
                 width: 75%;
             }
-        }
+        } */
 
         /* *********************/
         /* seccion P O R T F O L I O */
