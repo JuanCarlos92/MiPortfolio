@@ -37,7 +37,6 @@ function efectoHabilidades() {
         document.getElementById("bd").classList.add("barra-progreso3");
         document.getElementById("java").classList.add("barra-progreso4");
         document.getElementById("kotlin").classList.add("barra-progreso5");
-
         
     }
 
