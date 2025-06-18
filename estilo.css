@@ -97,20 +97,21 @@
         }
 
         #inicio .contenido .presentacion h2 {
-            font-size: 55px;
+            font-size: 2rem;
             margin-bottom: 25px;
             text-align: center;
         }
 
         #inicio .contenido .presentacion h2 span {
-            font-size: 25px;
+            font-size: 1.5rem;
             color: #ff5080;
         }
 
         #inicio .contenido .presentacion .descripcion {
             max-width: 700px;
             margin: 25px auto;
-            font-size: 18px;
+            font-size: 1rem;
+            /* font-size: 18px; */
             text-align: center;
         }
 
@@ -597,8 +598,16 @@
             }
 
             #inicio .contenido .presentacion h2 {
-                font-size: 40px;
+                font-size: 1.5rem;
             }
+
+            #inicio .contenido .presentacion h2 span {
+                font-size: 1.0rem;
+            }
+            #inicio .contenido .presentacion .descripcion{
+                font-size: 0.85rem;
+            }
+
 
             /* seccion SOBRE MI */
             #sobremi {
